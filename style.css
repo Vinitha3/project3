@@ -118,7 +118,7 @@ dt {
     background: url("./20210510_180150.jpg") no-repeat;
     background-size: 200px 200px;
     background-position-x: -30px;
-    /* border: 3px solid #585858; */
+    border: 3px solid #585858; 
 }
 
 /* --------------------header------------------------------ */
