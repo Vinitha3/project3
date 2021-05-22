@@ -14,13 +14,13 @@
 /* ---------------------light mode------------------ */
 
 .light-body {
-    color: #252525;
-    background: white;
+    color: #000000;
+    background: #87CEEB;
 }
 
 .light-toggle {
-    color: white;
-    background: #252525;
+    color: #000000;
+    background: #87CEEB;
 }
 
 .light-profile-img {
@@ -36,13 +36,13 @@
 /* -------------------dark mode------------------- */
 
 .dark-body  {
-    color: white;
-    background: #252525;
+    color: #87CEEB;
+    background: #000000;
 }
 
 .dark-toggle {
-    color: #252525;
-    background: white;
+    color: #87CEEB;
+    background: #000000;
 }
 
 .dark-profile-img {
@@ -115,8 +115,8 @@ dt {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: url("./myprofile.jpg") no-repeat;
-    background-size: 400px 400px;
+    background: url("./20210510_180150.jpg") no-repeat;
+    background-size: 200px 200px;
     background-position-x: -30px;
     /* border: 3px solid #585858; */
 }
@@ -195,8 +195,8 @@ td,th {
 .skills-wrapper {
     display: grid;
     width: 70%;
-    grid-template-columns: 100px 100px 100px 100px;
-    grid-gap:  64px 128px;
+    grid-template-columns: 50px 50px 50px;
+    grid-gap:  64px 64px;
     margin-bottom: 16px;
 }
 
@@ -229,46 +229,12 @@ td,th {
         margin-top: -120px;
     }
 
-    .skills {
-        margin-top: -120px;
-    }
-
-    .skills-wrapper {
-        display: grid;
-        width: 70%;
-        grid-template-columns: 100px 100px;
-        grid-gap:  64px 128px;
-        margin-left: 40px;
-    }
-
-    .skills img {
-        width: 64px;
-        height: 64px;
-    }
-
-    .mongodb {
-        grid-area: 5 / 1 / 6 / 2;
-    }
-    
-    .python {
-        grid-area: 5 / 2 / 6 / 3;
-    }
-    
-}
-
 /* -----------------------for tablets,mobiles----------------------- */
 
 /* ----------------------except tablets,mobiles--------------------- */
 
 @media screen and (min-width: 770px) {
 
-    .mongodb {
-        grid-area: 3 / 2 / 4 / 3;
-    }
-    
-    .python {
-        grid-area: 3 / 3 / 4 / 4;
-    }
 }
 
 /* --------------------except tablets,mobiles----------------------- */
