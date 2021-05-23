@@ -31,6 +31,10 @@
     border: 1px #000000;
 }
 
+.light-th {
+    background-color: #000000;
+}
+
 /* ------------------light mode------------------- */
 
 /* -------------------dark mode------------------- */
@@ -51,6 +55,10 @@
 
 .dark-table {
     border: 1px #87CEEB;
+}
+
+.dark-th {
+    background-color: #87CEEB;
 }
 
 /* -----------------dark mode-------------------- */
