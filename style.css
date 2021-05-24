@@ -28,7 +28,7 @@
 }
 
 .light-table {
-    border: 1px #000000;
+    border: 1px solid #000000;
 }
 
 .light-th {
@@ -54,7 +54,7 @@
 }
 
 .dark-table {
-    border: 1px #87CEEB;
+    border: 1px solid #87CEEB;
 }
 
 .dark-th {
