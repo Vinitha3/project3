@@ -18,7 +18,7 @@
     background: #87CEEB;
 }
 
-.light-toggle {
+.dark-toggle {
     color: #000000;
     background: #87CEEB;
 }
@@ -31,10 +31,6 @@
     border: 1px solid #000000;
 }
 
-.light-th {
-    background-color: #000000;
-}
-
 /* ------------------light mode------------------- */
 
 /* -------------------dark mode------------------- */
@@ -44,7 +40,7 @@
     background: #000000;
 }
 
-.dark-toggle {
+.light-toggle {
     color: #87CEEB;
     background: #000000;
 }
@@ -55,10 +51,6 @@
 
 .dark-table {
     border: 1px solid #87CEEB;
-}
-
-.dark-th {
-    background-color: #87CEEB;
 }
 
 /* -----------------dark mode-------------------- */
@@ -124,7 +116,7 @@ dt {
     height: 200px;
     border-radius: 50%;
     background: url("./20210410_180150.jpg") no-repeat;
-    background-size: 250px 250px;
+    background-size: cover;
     background-position-x: -20px;
     border: 3px solid #585858; 
 }
